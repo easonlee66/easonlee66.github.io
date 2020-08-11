@@ -5,8 +5,8 @@ $(document).ready(function() {
   	var startt;
   	function record(){
   	  nownumber = nownumber + 1;
-  	  let newnode = document.createElement("p");
-  	  let id = document.createAttribute("id");
+		let newnode = document.createElement("p");
+		let id=document.createAttribute("id");
   	  id.value = ("id" + nownumber);
   	  newnode.setAttribute(id);
   	  let text = document.createTextNode("");
